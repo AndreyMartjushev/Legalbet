@@ -23,5 +23,5 @@ npm start
 
 1. Build project
 ```sh
-npm build
+npm run-script build
 ```
