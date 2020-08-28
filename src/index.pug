@@ -1,0 +1,129 @@
+html
+	head
+		meta(charset="UTF-8")
+		meta(name="viewport" content="width=device-width, initial-scale=1.0")
+		title Legalbet
+		link(rel="shortcut icon" type="image/png" href="img/favicon.png")
+		link(rel="stylesheet" href="css/normalize.css")
+		link(rel="stylesheet" href="css/styles.min.css")
+	body
+		.overlay
+		.wrapper_page
+			main.main
+				header.header
+					.container
+						a.header__logo(href="/")
+							img.header__logo--desctop(src="img/logo.svg", alt="")
+							img.header__logo--mobile(src="img/logo-mobile.svg", alt="")
+						.header__wrapp_nav
+							a.header__logo_mobile(href="/")
+								img(src="img/logo.svg", alt="")
+							nav.header__nav
+								ul.header__list
+									li.header__list__item
+										a.header__list__link.header__list__link--active(href="#") Букмекеры
+									li.header__list__item
+										a.header__list__link(href="#") Бонусы
+									li.header__list__item
+										a.header__list__link(href="#") Прогнозы
+									li.header__list__item
+										a.header__list__link(href="#") Беттинг-центр
+									li.header__list__item
+										a.header__list__link(href="#") Эксперты
+									li.header__list__item
+										a.header__list__link(href="#") Блоги
+									li.header__list__item
+										a.header__list__link(href="#") База знаний
+							.header__wrapper_tool
+								a.header__support(href="#") Поддержка
+								form.header__search_form
+									.header__search_form__open_serch Поиск
+									input.header__search_form__input(type="text" placeholder="Поиск")
+									button.header__search_form__btn(type="submit")
+								a.header__lk.header__lk--notification(href="#") fl
+						.header__pagetitle База знаний
+						.header__open_btn_menu
+							span.header__open_btn_menu__notification
+				.container.wrapper_main
+					section.catalog
+						.dont_sale не продается
+						h1.h1 Букмекерские конторы с высокими коэффициентами 
+						.catalog__table
+							.catalog__table__item.catalog__table__item__header
+								.catalog__table__subitem Букмекер
+								.catalog__table__subitem Маржа
+								.catalog__table__subitem Отзывы
+								.catalog__table__subitem Бонус
+							.catalog__table__item
+								.catalog__table__subitem
+									img(src="img/marafon.png" alt="")
+								.catalog__table__subitem
+									.mgargin 2,69%
+										.mgargin__options
+								.catalog__table__subitem
+									a(href="#").reviews 138
+								.catalog__table__subitem
+									a(href="#").bonuse 2 000 ₽
+									a(href="#").btn.btn--red На сайт
+							.catalog__table__item
+								.catalog__table__subitem
+									img(src="img/1x.png" alt="")
+								.catalog__table__subitem
+									.mgargin 2,69%
+										.mgargin__options
+								.catalog__table__subitem
+									a(href="#").reviews 138
+								.catalog__table__subitem
+									a(href="#").bonuse 2 000 ₽
+									a(href="#").btn.btn--red На сайт
+							.catalog__table__item
+								.catalog__table__subitem
+									img(src="img/olymp.png" alt="")
+								.catalog__table__subitem
+									.mgargin 2,69%
+										.mgargin__options
+								.catalog__table__subitem
+									a(href="#").reviews 138
+								.catalog__table__subitem
+									a(href="#").bonuse 2 000 ₽
+									a(href="#").btn.btn--red На сайт
+							.catalog__table__item
+									.catalog__table__subitem
+										img(src="img/888.png" alt="")
+									.catalog__table__subitem
+										.mgargin 2,69%
+											.mgargin__options
+									.catalog__table__subitem
+										a(href="#").reviews 138
+									.catalog__table__subitem
+										a(href="#").bonuse 2 000 ₽
+										a(href="#").btn.btn--red На сайт
+					aside.aside_site
+						nav.other_nav
+							ul.other_nav__list
+								li.other_nav__item
+									a(href="#").other_nav__link Школа ставок
+								li.other_nav__item
+									a(href="#").other_nav__link FAQ
+								li.other_nav__item
+									a(href="#").other_nav__link Вопрос-ответ
+										span.other_nav__count_question 3
+								li.other_nav__item
+									a(href="#").other_nav__link Советы игроков
+								li.other_nav__item
+									a(href="#").other_nav__link.active  Калькулятор расчета выйгрыша
+							.other_nav__btn_open
+						.subscription
+							.subscription__caption Курс молодого ставочника
+							.subscription__about Помогаем разобраться со ставками и букмекерскими конторами
+							a.subscription__more(href="#") Подробности
+							form.subscription__form(action="")
+								input.subscription__input(type="text" placeholder="Ваше имя")
+								input.subscription__input(type="email" placeholder="Email")
+								button.subscription__btn.btn.btn--blue(type="submit") Подписаться на курс
+								input.subscription__checkbox.checkbox(type="checkbox" id="politic")
+								label.subscription__label.label(for="politic") Соглашаюсь 
+									a.subscription__link(href="#") с условиями
+			aside.aside_global
+		script(src='js/vendors/jquery-3.5.1.min.js')
+		script(src='js/scripts.min.js')
