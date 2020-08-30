@@ -15,7 +15,7 @@ npm install
 ```
 3. Start project
 ```sh
-npm start
+gulp start
 ```
 
 

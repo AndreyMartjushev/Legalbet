@@ -1,13 +1,11 @@
-if ($(window).width() > 917) {
-    $(".header__search_form__open_serch").click(() => {
+$(".header__search_form__open_serch").click(() => {
+    if ($(window).width() > 917) {
         $(".header__support, .header__lk").toggleClass("hide");
         $(".header__search_form").toggleClass("open");
-    })
-} else {
-    $(".header__search_form__open_serch").click(() => {
+    } else {
         $(".header__search_form").toggleClass("open");
-    })
-}
+    }
+})
 $(".header__open_btn_menu").click(() => {
     $(".header__open_btn_menu").addClass("open");
     $(".overlay").addClass("active");

@@ -68,7 +68,7 @@ body
 		@include flex(space-between, center)
 	&__logo
 		max-width: 112px
-		margin-right: 32px
+		margin-right: 21px
 		&--mobile
 			display: none
 	&__wrapp_nav
@@ -81,7 +81,6 @@ body
 		align-self: stretch
 	&__list
 		@include flex(space-between, stretch)
-		height: 100%
 		padding: 0
 		margin: 0
 		&__item
@@ -437,6 +436,7 @@ body
 		color: $blue-btn
 		font-weight: 600
 	&__input
+		width: 100%
 		background: #FAFAFA
 		border: 1px solid rgba(0, 0, 0, 0.07)
 		box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.06)
@@ -498,14 +498,15 @@ body
 	&::before
 		background: url("../img/checkbox.png") center no-repeat
 		border-color: rgba(0, 0, 0, 0)
-@media (max-width: 1366px)
+@media (max-width: 1365px)
 	.aside_global
 		display: none
 	.main
 		width: 100%
-@media (max-width: 1073px)
+@media (max-width: 1079px)
 	.header__logo
-		margin-right: 15px
+		margin-right: 14px
+@media (max-width: 1073px)
 	.header__list__item
 		margin-right: 10px
 @media (max-width: 1024px)
@@ -528,6 +529,11 @@ body
 		padding-right: 120px
 	.header__nav
 		margin-right: 15px
+@media (max-width: 931px)
+	.header__nav
+    	margin-right: 10px
+	.header__list__link
+		font-size: 13px
 @media (max-width: 917px)
 	.hide_logo_svg
 		display: none
@@ -647,8 +653,6 @@ body
 	.other_nav__link.active
 		display: block
 		padding-top: 13px
-	.subscription__input
-		width: 100%
 @media (max-width: 660px)
 	.catalog__table__item__header 
 		.catalog__table__subitem
